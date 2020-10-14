@@ -1,0 +1,2270 @@
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Unauthorized: /token/
+Not Found: /api/admin/static/admin/css/dashboard.css
+Not Found: /api/admin/static/admin/css/base.css
+Not Found: /api/admin/static/admin/css/responsive.css
+Not Found: /
+Not Found: /api/admin/static/admin/css/base.css
+Not Found: /api/admin/static/admin/css/dashboard.css
+Not Found: /api/admin/static/admin/css/responsive.css
+Not Found: /api/admin/auth/static/admin/css/base.css
+Not Found: /api/admin/auth/static/admin/css/responsive.css
+Not Found: /api/admin/auth/static/admin/css/dashboard.css
+Unauthorized: /token/
+Internal Server Error: /api/v1/api/v1/profiles/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'password2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views_users.py", line 26, in create
+    serializer.validate_password(value=request.data['password2'])
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'password2'
+Not Found: /api/v1/api/v1/profiles/
+Not Found: /api/v1/api/v1/profiles/
+Internal Server Error: /api/v1/api/v1/profiles/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 103, in view
+    handler = getattr(self, action)
+AttributeError: 'UserProfileView' object has no attribute 'update'
+Bad Request: /api/v1/api/v1/auction/
+Bad Request: /api/v1/api/v1/auction/finish/1/
+Bad Request: /api/v1/api/v1/auction/
+Bad Request: /api/v1/api/v1/auction/finish/1/
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    author = User.objects.get(pk=author_id)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+Internal Server Error: /api/v1/api/v1/auction/finish/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/mixins.py", line 75, in update
+    return Response(serializer.data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 77, in get_last_rate
+    return last_rate.rate
+AttributeError: 'NoneType' object has no attribute 'rate'
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    author = User.objects.get(pk=author_id)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+Internal Server Error: /api/v1/api/v1/auction/finish/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/mixins.py", line 75, in update
+    return Response(serializer.data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 77, in get_last_rate
+    return last_rate.rate
+AttributeError: 'NoneType' object has no attribute 'rate'
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    author = User.objects.get(pk=author_id)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+Internal Server Error: /api/v1/api/v1/auction/finish/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/mixins.py", line 75, in update
+    return Response(serializer.data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 77, in get_last_rate
+    return last_rate.rate
+AttributeError: 'NoneType' object has no attribute 'rate'
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    author = User.objects.get(pk=author_id)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+Internal Server Error: /api/v1/api/v1/auction/finish/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/mixins.py", line 75, in update
+    return Response(serializer.data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 84, in get_name_win
+    return last_rate.member.name
+AttributeError: 'NoneType' object has no attribute 'member'
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    author = User.objects.get(pk=author_id)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+Internal Server Error: /api/v1/api/v1/auction/finish/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/mixins.py", line 75, in update
+    return Response(serializer.data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 91, in get_email_win
+    return last_rate.member.user.email
+AttributeError: 'NoneType' object has no attribute 'member'
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    author = User.objects.get(pk=author_id)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    author = User.objects.get(pk=author_id)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    author = User.objects.get(pk=author_id)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 58, in create
+    author = User.objects.get(pk=author_id)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 61, in create
+    author = User.objects.get(pk=author_id)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 62, in create
+    auction = Auction.objects.create(**validated_data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 745, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 782, in save_base
+    updated = self._save_table(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 924, in _do_insert
+    return manager._insert(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1391, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1334, in as_sql
+    value_rows = [
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1335, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1335, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1276, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 821, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1376, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1355, in get_prep_value
+    value = super().get_prep_value(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1215, in get_prep_value
+    return self.to_python(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1316, in to_python
+    parsed = parse_datetime(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/utils/dateparse.py", line 107, in parse_datetime
+    match = datetime_re.match(value)
+TypeError: expected string or bytes-like object
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 62, in create
+    auction = Auction.objects.create(**validated_data[0])
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 0
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 62, in create
+    auction = Auction.objects.create(**validated_data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 745, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 782, in save_base
+    updated = self._save_table(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 924, in _do_insert
+    return manager._insert(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1391, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1334, in as_sql
+    value_rows = [
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1335, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1335, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1276, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 821, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1376, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1355, in get_prep_value
+    value = super().get_prep_value(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1215, in get_prep_value
+    return self.to_python(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1316, in to_python
+    parsed = parse_datetime(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/utils/dateparse.py", line 107, in parse_datetime
+    match = datetime_re.match(value)
+TypeError: expected string or bytes-like object
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 61, in create
+    author = User.objects.get(pk=author_id)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 62, in create
+    auction = Auction.objects.create(**validated_data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 745, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 782, in save_base
+    updated = self._save_table(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 924, in _do_insert
+    return manager._insert(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1391, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1334, in as_sql
+    value_rows = [
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1335, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1335, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1276, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 821, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1376, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1355, in get_prep_value
+    value = super().get_prep_value(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1215, in get_prep_value
+    return self.to_python(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1316, in to_python
+    parsed = parse_datetime(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/utils/dateparse.py", line 107, in parse_datetime
+    match = datetime_re.match(value)
+TypeError: expected string or bytes-like object
+Unauthorized: /api/v1/auction/9/
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 61, in create
+    author = User.objects.get(pk=author_id[0])
+TypeError: 'int' object is not subscriptable
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 46, in create
+    return Response(data=new_serializer.data, status=status.HTTP_201_CREATED)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 51, in get_is_active
+    return instance.check_finish()
+  File "/home/alex/Desktop/python/auction/app/models/models.py", line 66, in check_finish
+    if self.date_end <= date_now:
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 46, in create
+    return Response(data=new_serializer.data, status=status.HTTP_201_CREATED)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 51, in get_is_active
+    return instance.check_finish()
+  File "/home/alex/Desktop/python/auction/app/models/models.py", line 66, in check_finish
+    if self.date_end <= date_now:
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 46, in create
+    return Response(data=new_serializer.data, status=status.HTTP_201_CREATED)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 51, in get_is_active
+    return instance.check_finish()
+  File "/home/alex/Desktop/python/auction/app/models/models.py", line 68, in check_finish
+    if self.date_end <= date_now:
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 46, in create
+    return Response(data=new_serializer.data, status=status.HTTP_201_CREATED)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 51, in get_is_active
+    return instance.check_finish()
+  File "/home/alex/Desktop/python/auction/app/models/models.py", line 68, in check_finish
+    if self.date_end <= date_now:
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'collections.OrderedDict'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=serializer.data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.validated_data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 44, in get_last_rate
+    auction_rate = RateMember.objects.filter(auction=instance).order_by('-created_at')
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 115, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got OrderedDict([('name', '222 auction'), ('description', 'Long time auction'), ('rate_start', 1000), ('date_start', datetime.datetime(2020, 10, 22, 10, 0, tzinfo=<UTC>)), ('date_end', datetime.datetime(2020, 10, 22, 22, 0, tzinfo=<UTC>)), ('author', <User: Alex>)]).
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'collections.OrderedDict'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=serializer.data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.validated_data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 44, in get_last_rate
+    auction_rate = RateMember.objects.filter(auction=instance).order_by('-created_at')
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 115, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got OrderedDict([('name', '222 auction'), ('description', 'Long time auction'), ('rate_start', 1000), ('date_start', datetime.datetime(2020, 10, 22, 10, 0, tzinfo=<UTC>)), ('date_end', datetime.datetime(2020, 10, 22, 22, 0, tzinfo=<UTC>)), ('author', <User: Alex>)]).
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'collections.OrderedDict'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=serializer.data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.validated_data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 44, in get_last_rate
+    auction_rate = RateMember.objects.filter(auction=instance).order_by('-created_at')
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 115, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got OrderedDict([('name', '222 auction'), ('description', 'Long time auction'), ('rate_start', 1000), ('date_start', datetime.datetime(2020, 10, 22, 10, 0, tzinfo=<UTC>)), ('date_end', datetime.datetime(2020, 10, 22, 22, 0, tzinfo=<UTC>)), ('author', <User: Alex>)]).
+Unauthorized: /api/v1/auction/
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 59, in create
+    print(author_id)
+NameError: name 'author_id' is not defined
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 63, in create
+    auction.author = author
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/related_descriptors.py", line 214, in __set__
+    raise ValueError(
+ValueError: Cannot assign "14": "Auction.author" must be a "User" instance.
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 46, in create
+    return Response(data=new_serializer.data, status=status.HTTP_201_CREATED)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 51, in get_is_active
+    return instance.check_finish()
+  File "/home/alex/Desktop/python/auction/app/models/models.py", line 68, in check_finish
+    if self.date_end <= date_now:
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    validated_data['date_start'] = datetime.strptime(validated_data.pop('date_start'))
+TypeError: strptime() takes exactly 2 arguments (1 given)
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    validated_data['date_start'] = datetime.strptime(validated_data.pop('date_start'), '%Y-%m-%d %h:%m:%s')
+  File "/home/alex/Python-3.8.3/Lib/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/home/alex/Python-3.8.3/Lib/_strptime.py", line 341, in _strptime
+    raise ValueError("'%s' is a bad directive in format '%s'" %
+ValueError: 'h' is a bad directive in format '%Y-%m-%d %h:%m:%s'
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 46, in create
+    return Response(data=new_serializer.data, status=status.HTTP_201_CREATED)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 51, in get_is_active
+    return instance.check_finish()
+  File "/home/alex/Desktop/python/auction/app/models/models.py", line 68, in check_finish
+    if self.date_end <= date_now:
+TypeError: can't compare offset-naive and offset-aware datetimes
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    validated_data['date_start'] = datetime.strptime(validated_data.pop('date_start'), '%Y-%m-%d %H:%M:%S%z')
+  File "/home/alex/Python-3.8.3/Lib/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/home/alex/Python-3.8.3/Lib/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2020-10-22 10:00:00' does not match format '%Y-%m-%d %H:%M:%S%z'
+Internal Server Error: /api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 46, in create
+    return Response(data=new_serializer.data, status=status.HTTP_201_CREATED)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 51, in get_is_active
+    return instance.check_finish()
+  File "/home/alex/Desktop/python/auction/app/models/models.py", line 68, in check_finish
+    if self.date_end <= date_now:
+TypeError: can't compare offset-naive and offset-aware datetimes
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    validated_data['date_start'] = datetime.strptime(validated_data.pop('date_start'), '%Y-%m-%d %H:%M:%S')
+TypeError: strptime() argument 1 must be str, not list
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 55, in create
+    validated_data['date_start'] = datetime.strptime(validated_data.pop('date_start'), '%Y-%m-%d %H:%M:%S')
+TypeError: strptime() argument 1 must be str, not list
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 57, in create
+    author = User.objects.get(pk=author_id)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 61, in create
+    auction = Auction.objects.create(**validated_data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 745, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 782, in save_base
+    updated = self._save_table(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 924, in _do_insert
+    return manager._insert(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1391, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1334, in as_sql
+    value_rows = [
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1335, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1335, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1276, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 821, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1376, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1355, in get_prep_value
+    value = super().get_prep_value(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1215, in get_prep_value
+    return self.to_python(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1316, in to_python
+    parsed = parse_datetime(value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/utils/dateparse.py", line 107, in parse_datetime
+    match = datetime_re.match(value)
+TypeError: expected string or bytes-like object
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 46, in create
+    return Response(data=new_serializer.data, status=status.HTTP_201_CREATED)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 51, in get_is_active
+    return instance.check_finish()
+  File "/home/alex/Desktop/python/auction/app/models/models.py", line 68, in check_finish
+    if self.date_end <= date_now:
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 46, in create
+    return Response(data=new_serializer.data, status=status.HTTP_201_CREATED)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 53, in get_is_active
+    return instance.check_finish()
+  File "/home/alex/Desktop/python/auction/app/models/models.py", line 68, in check_finish
+    if self.date_end <= date_now:
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'collections.OrderedDict'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=serializer.data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.validated_data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 46, in get_last_rate
+    auction_rate = RateMember.objects.filter(auction=instance).order_by('-created_at')
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 115, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got OrderedDict([('name', 'New Auction2'), ('description', 'Description big new'), ('rate_start', 2000), ('date_start', datetime.datetime(2020, 10, 12, 10, 0, tzinfo=<UTC>)), ('date_end', datetime.datetime(2020, 10, 13, 10, 0, tzinfo=<UTC>)), ('author', <User: TestUser>)]).
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'collections.OrderedDict'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=serializer.data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.validated_data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 46, in get_last_rate
+    auction_rate = RateMember.objects.filter(auction=instance).order_by('-created_at')
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 115, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got OrderedDict([('name', 'New Auction2'), ('description', 'Description big new'), ('rate_start', 2000), ('date_start', datetime.datetime(2020, 10, 12, 10, 0, tzinfo=<UTC>)), ('date_end', datetime.datetime(2020, 10, 13, 10, 0, tzinfo=<UTC>)), ('author', <User: TestUser>)]).
+Internal Server Error: /api/v1/api/v1/auction/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/Desktop/python/auction/app/views/views.py", line 44, in create
+    model = serializer.create(validated_data=data)
+  File "/home/alex/Desktop/python/auction/app/serializers/serializers.py", line 65, in create
+    auction = Auction.objects.create(**validated_data)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/query.py", line 431, in create
+    obj = self.model(**kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/db/models/base.py", line 500, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Auction() got an unexpected keyword argument 'start_date'
+Forbidden: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Forbidden: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Forbidden: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Internal Server Error: /api/v1/api/v1/rate/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/mixins.py", line 90, in destroy
+    instance = self.get_object()
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/generics.py", line 99, in get_object
+    self.check_object_permissions(self.request, obj)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/views.py", line 343, in check_object_permissions
+    if not permission.has_object_permission(request, self, obj):
+  File "/home/alex/Desktop/python/auction/app/permissions.py", line 31, in has_object_permission
+    if user.profile.is_client:
+NameError: name 'user' is not defined
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Internal Server Error: /api/v1/api/v1/auction/finish/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 103, in view
+    handler = getattr(self, action)
+AttributeError: 'AuctionFinishView' object has no attribute 'retrive'
+Internal Server Error: /api/v1/api/v1/auction/finish/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 103, in view
+    handler = getattr(self, action)
+AttributeError: 'AuctionFinishView' object has no attribute 'retrive'
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Internal Server Error: /api/v1/api/v1/auction/finish/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 103, in view
+    handler = getattr(self, action)
+AttributeError: 'AuctionFinishView' object has no attribute 'retrive'
+Internal Server Error: /api/v1/api/v1/auction/finish/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 103, in view
+    handler = getattr(self, action)
+AttributeError: 'AuctionFinishView' object has no attribute 'retrive'
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Internal Server Error: /api/v1/api/v1/auction/finish/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 103, in view
+    handler = getattr(self, action)
+AttributeError: 'AuctionFinishView' object has no attribute 'retrive'
+Internal Server Error: /api/v1/api/v1/auction/finish/1/
+Traceback (most recent call last):
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alex/.local/share/virtualenvs/auction-_4xmyppG/lib/python3.8/site-packages/rest_framework/viewsets.py", line 103, in view
+    handler = getattr(self, action)
+AttributeError: 'AuctionFinishView' object has no attribute 'retrive'
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Forbidden: /api/v1/api/v1/auction/1/
+Method Not Allowed: /api/v1/api/v1/rate/1/
+Bad Request: /
+Bad Request: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /api/admin/login/static/admin/css/base.css
+Not Found: /api/admin/login/static/admin/css/responsive.css
+Not Found: /api/admin/login/static/admin/css/login.css
+Method Not Allowed: /api/v1/api/v1/auction/finish/1/
+Method Not Allowed: /api/v1/api/v1/auction/finish/2/
+Forbidden: /api/v1/api/v1/auction/3/
+Method Not Allowed: /api/v1/api/v1/rate/5/
+Not Found: /swagger/static/drf-yasg/style.css
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui.css
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js
+Not Found: /swagger/static/drf-yasg/insQ.min.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js
+Not Found: /swagger/static/drf-yasg/immutable.min.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-init.js
+Not Found: /swagger/static/drf-yasg/url-polyfill.min.js
+Not Found: /swagger/static/drf-yasg/insQ.min.js
+Not Found: /swagger/static/drf-yasg/immutable.min.js
+Not Found: /swagger/static/drf-yasg/url-polyfill.min.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-init.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/favicon-32x32.png
+Not Found: /swagger/static/drf-yasg/style.css
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js
+Not Found: /swagger/static/drf-yasg/immutable.min.js
+Not Found: /swagger/static/drf-yasg/url-polyfill.min.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui.css
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js
+Not Found: /swagger/static/drf-yasg/insQ.min.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-init.js
+Not Found: /swagger/static/drf-yasg/immutable.min.js
+Not Found: /swagger/static/drf-yasg/url-polyfill.min.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-init.js
+Not Found: /accounts/login/
+Not Found: /swagger/static/drf-yasg/style.css
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui.css
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js
+Not Found: /swagger/static/drf-yasg/url-polyfill.min.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-init.js
+Not Found: /swagger/static/drf-yasg/immutable.min.js
+Not Found: /swagger/static/drf-yasg/insQ.min.js
+Not Found: /swagger/static/drf-yasg/immutable.min.js
+Not Found: /swagger/static/drf-yasg/url-polyfill.min.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-init.js
+Not Found: /accounts/login/
+Not Found: /accounts/login/
+Not Found: /redoc/static/drf-yasg/style.css
+Not Found: /redoc/static/drf-yasg/insQ.min.js
+Not Found: /redoc/static/drf-yasg/redoc-init.js
+Not Found: /redoc/static/drf-yasg/url-polyfill.min.js
+Not Found: /redoc/static/drf-yasg/redoc/redoc.min.js
+Not Found: /redoc/static/drf-yasg/redoc-init.js
+Not Found: /redoc/static/drf-yasg/redoc/redoc.min.js
+Not Found: /redoc/static/drf-yasg/redoc/redoc-logo.png
+Not Found: /swagger/static/drf-yasg/style.css
+Not Found: /swagger/static/drf-yasg/url-polyfill.min.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js
+Not Found: /swagger/static/drf-yasg/insQ.min.js
+Not Found: /swagger/static/drf-yasg/immutable.min.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui.css
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-init.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js
+Not Found: /swagger/static/drf-yasg/insQ.min.js
+Not Found: /swagger/static/drf-yasg/immutable.min.js
+Not Found: /swagger/static/drf-yasg/url-polyfill.min.js
+Not Found: /swagger/static/drf-yasg/swagger-ui-init.js
+Not Found: /accounts/login/

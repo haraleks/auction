@@ -14,28 +14,24 @@ import os
 from datetime import timedelta
 from pathlib import Path
 
-import environ
-
-
-env = environ.Env()
-
-environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
-
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env('DEBUG', default=False)
+DEBUG = os.environ.get('DEBUG', default=False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '0.0.0.0:8000',
+    '0.0.0.0'
+]
 
 
 # Application definition
@@ -93,12 +89,12 @@ WSGI_APPLICATION = 'auction.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': env('SQL_ENGINE', default='django.db.backends.sqlite3'),
-        'NAME': env('SQL_NAME', default='db_sqlight'),
-        'USER': env('SQL_USER', default=''),
-        'PASSWORD': env('SQL_PASSWORD', default=''),
-        'HOST': env('SQL_HOST', default=''),
-        'PORT': env('SQL_PORT', default=''),
+        'ENGINE': os.environ.get('SQL_ENGINE', default='django.db.backends.sqlite3'),
+        'NAME': os.environ.get('SQL_DATABASE', default='db_sqlight'),
+        'USER': os.environ.get('SQL_USER', default=''),
+        'PASSWORD': os.environ.get('SQL_PASSWORD', default=''),
+        'HOST': os.environ.get('SQL_HOST', default=''),
+        'PORT': os.environ.get('SQL_PORT', default=''),
     }
 }
 
@@ -139,10 +135,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-MEDIA_URL = env.str('MEDIA_URL', default='media/')
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_URL = '/static/'
 
-STATIC_URL = env.str('STATIC_URL', default='static/')
+STATICFILES_DIRS = []
+
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
@@ -164,19 +163,21 @@ REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
 }
 
-EMAIL_USE_TLS = env('EMAIL_USE_TLS')
-EMAIL_HOST = env('EMAIL_HOST')
-EMAIL_HOST_USER = env('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
-EMAIL_PORT = env('EMAIL_PORT')
+EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS')
+EMAIL_HOST = os.environ.get('EMAIL_HOST')
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+EMAIL_PORT = os.environ.get('EMAIL_PORT')
 
 DJOSER = {
     'PASSWORD_RESET_CONFIRM_URL': '#/password/reset/confirm/{uid}/{token}',
     'USERNAME_RESET_CONFIRM_URL': '#/username/reset/confirm/{uid}/{token}',
     'ACTIVATION_URL': '#/activate/{uid}/{token}',
-    'SEND_ACTIVATION_EMAIL': env('SEND_ACTIVATION_EMAIL_DJOSER'),
+    'SEND_ACTIVATION_EMAIL': os.environ.get('SEND_ACTIVATION_EMAIL_DJOSER'),
     'SERIALIZERS': {},
 }
+
+SWAGGER_SETTINGS = {'USE_SESSION_AUTH': False}
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=15),  # Better 5 min but for
@@ -201,8 +202,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename':  './auction/logs/errors.log',
-# 'filename':  os.path.join(BASE_DIR, 'logs', 'errors.log'),
+            'filename': os.path.join(BASE_DIR, 'auction/logs', 'debug.log')
         },
     },
     'loggers': {

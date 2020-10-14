@@ -16,18 +16,20 @@ RUN echo -e "http://dl-4.alpinelinux.org/alpine/v3.12/main\nhttp://dl-4.alpineli
 RUN apk update \
     && apk add postgresql-dev gcc python3-dev musl-dev
 
-# install dependencies
-RUN cd /usr/src/projects/
-RUN pip install pipenv
-COPY ./Pipfile /usr/src/projects/
-COPY ./Pipfile.lock /usr/src/projects/
-RUN pipenv install --system --deploy --ignore-pipfile
 
+# install dependencies
+RUN pip install --upgrade pip
+RUN pip install pipenv
+RUN pipenv lock --requirements > requirements.txt
+COPY ./requirements.txt .
+RUN pip install -r requirements.txt
+
+
+# copy enrtypoint
+COPY ./entrypoint.sh .
 
 # copy project
-COPY . /usr/src/projects/
-
-RUN ls
+COPY . .
 
 # migrate
 ENTRYPOINT ["sh", "/usr/src/projects/entrypoint.sh"]
